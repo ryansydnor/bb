@@ -1,0 +1,9 @@
+<section id="one">
+	<div class="row">
+	{{ range .Site.Params.home.pages }}
+		<icon class="4u 12u$(xsmall)">
+			<a href="{{ . }}" class="image menu avatar"><img src="/images/{{ . }}.png" alt="{{ . }}"/></a>
+		</icon>
+	{{ end }}
+	</div>
+</section>

@@ -1,0 +1,29 @@
+baseurl = "http://localhost/"
+pluralizeListTitles = false
+languageCode = "en-us"
+title = "bb"
+
+[params]
+	name = "bb"
+	description = "bb"
+	googleAnalytics = "UA-71730463-1"
+	DateForm = "Jan 2 2006"
+
+
+	[params.sidebar]
+		bio = "we are the **bb**s"
+		twitter = ""
+		github = "ryansydnor"
+		email = "ryan.t.sydnor@gmail.com"
+
+		copyright = [
+			"&copy; bbs"
+		]
+
+
+	[params.home]
+		pages = [
+			"beer",
+			"burger",
+			"coffee"
+		]

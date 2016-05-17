@@ -1,0 +1,13 @@
+<article class="post" style="">
+	
+	<h1>
+		{{ .Title }}
+	</h1>
+
+	{{ if .Params.images }}
+		{{ partial "images" . }}
+	{{ end }}
+
+	<p>{{ .Content }}</p>
+	<p class="date">Posted On {{ .Date.Format .Site.Params.DateForm }}</p>
+</article>

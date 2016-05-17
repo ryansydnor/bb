@@ -1,0 +1,10 @@
+{{ partial "header" . }}
+
+<img class="image avatar center" src="/images/{{ lower .Title }}.png" alt="beer" />
+
+
+{{ range .Data.Pages }}
+	{{ .Render "review" }}
+{{ end }}
+
+{{ partial "footer" . }}

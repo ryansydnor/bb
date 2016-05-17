@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>&middot; {{ .Site.Title }} &middot; {{ if not (eq .Title .Site.Title) }}{{ .Title }}  &middot; {{ end }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
+    	<meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
+    	<meta http-equiv="content-language" content="{{ with .Site.LanguageCode }}{{ . }}{{ end }}" />
+    	{{ .Hugo.Generator }}
+		<link rel="stylesheet" href="/css/main.css" />
+	</head>

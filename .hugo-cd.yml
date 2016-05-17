@@ -1,0 +1,10 @@
+# this configuration file exists for use by
+# my serverless hugo continuous delivery pipeline
+# found here: https://github.com/ryansydnor/hugo-cd
+
+stack_name: thebbs
+subdomain: ""
+hosted_zone: thebbs.site
+git_url: https://github.com/ryansydnor/bb
+path_to_site: bb-master
+iam_certificate_id: ASCAJE7VY5QEFGQNNK2EG
